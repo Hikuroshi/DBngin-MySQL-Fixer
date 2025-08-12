@@ -5,7 +5,16 @@ Script batch untuk memperbaiki masalah MySQL di **DBngin** yang:
 - Tidak bisa konek karena file `mysql.pid` nyangkut
 - Error **"Port 3306 is already in use"** karena proses `mysqld.exe` lama belum mati
 
-Dengan script ini, kamu bisa memperbaiki masalah tanpa perlu restart laptop.
+Dengan script ini, kamu bisa memperbaiki masalah tanpa perlu restart perangkat.
+
+---
+
+## ⚠️ Disclaimer
+
+- Gunakan script ini **dengan risiko sendiri**.
+- Pastikan path `dbngin-go.exe` sudah benar sebelum menjalankan.
+- Script ini mematikan semua proses `mysqld.exe` — jika kamu menjalankan MySQL dari aplikasi lain (XAMPP, WAMP, Laragon, dll.), proses tersebut juga akan ikut berhenti.
+- Script ini **tidak menghapus data database**, hanya menghapus file `mysql.pid` (file penanda proses MySQL) dan menghentikan proses MySQL yang nyangkut.
 
 ---
 
