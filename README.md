@@ -1,5 +1,11 @@
 # DBngin MySQL Fixer (Windows)
 
+**Available languages / Bahasa tersedia:**
+- [English](en.md)
+- [Bahasa Indonesia](README.md)
+
+---
+
 Script batch untuk memperbaiki masalah MySQL di **DBngin** yang:
 - Statusnya selalu hijau (*running*) padahal MySQL sebenarnya mati
 - Tidak bisa konek karena file `mysql.pid` nyangkut
